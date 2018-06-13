@@ -1,6 +1,46 @@
 
-/*Day Cat*/
+.titles-day{
+    /* background: linear-gradient( to right, rgba(81, 186, 214, 0.5), rgba(116, 224, 188, 0.5), rgba(219, 150, 210, 0.76)); */
+    text-align: center;
+
+  }
+
 .day{
+    background-image: url("../assets/img/sunny-day.jpg");
+    background-size: cover;
+    background-position: center;
+
+    }
+.col-12{
+    height:300px;
+    }
+img{
+
+}
+
+
+@media (max-width:994px){
+  .hide-on-tablet{
+     display: none
+
+  }
+}
+@media (min-width:994px) and (max-width:425px){
+  .hide-on-mobile{
+    display:none;
+    }
+}
+@media(min-width: 425px) and (max-width: 320px;){
+  .hide-on-desktop{
+    display: none;
+  }
+}
+
+
+
+
+/*Day Cat*/
+/* .day{
   background-image: url("../assets/img/sunny-day.jpg");
   color: white;
   background-position: center;
@@ -19,10 +59,10 @@
 img{
   float: center;
   max-width: 100%;
-}
+} */
 
 /*Dawn Cat*/
-.dawn{
+/* .dawn{
   background-image: url("../assets/img/dawn.png");
   color: white;
   background-position: center;
@@ -42,9 +82,9 @@ img{
 img{
   float: center;
   max-width: 100%;
-}
+} */
 /*NigthCat*/
-.nigth{
+/* .nigth{
   background-image: url("../assets/img/night.jpg");
   color: white;
   background-position: center;
@@ -63,4 +103,4 @@ img{
 img{
   float: center;
   max-width: 100%;
-}
+} */
