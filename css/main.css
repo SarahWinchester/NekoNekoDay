@@ -1,106 +1,68 @@
 
-.titles-day{
-    /* background: linear-gradient( to right, rgba(81, 186, 214, 0.5), rgba(116, 224, 188, 0.5), rgba(219, 150, 210, 0.76)); */
-    text-align: center;
-
-  }
-
-.day{
-    background-image: url("../assets/img/sunny-day.jpg");
-    background-size: cover;
-    background-position: center;
-
-    }
-.col-12{
-    height:300px;
-    }
-img{
-
+.img-kitten{
+  float:
+}
+.titles-day {
+  background: linear-gradient( to right, rgba(81, 186, 214, 0.5), rgba(116, 224, 188, 0.5), rgba(219, 150, 210, 0.76));
+  text-align: center;
 }
 
-
-@media (max-width:994px){
-  .hide-on-tablet{
-     display: none
-
-  }
+section.day {
+  background-image: url("../assets/img/sunny-day.jpg");
+  background-size: cover;
+  background-position: center;
+  content: " ";
+  height: 100vh;
+  display: auto;
 }
-@media (min-width:994px) and (max-width:425px){
-  .hide-on-mobile{
-    display:none;
-    }
+
+section.dawn {
+  background-image: url("../assets/img/dawn.png");
+  background-size: cover;
+  background-position: center;
+  content: " ";
+  height: 100vh;
+  display: auto;
 }
-@media(min-width: 425px) and (max-width: 320px;){
-  .hide-on-desktop{
+
+section.nigth {
+  background-image: url("../assets/img/night.jpg");
+  background-size: cover;
+  background-position: center;
+  content: " ";
+  height: 100vh;
+  display: auto;
+}
+/*day*/
+@media (max-width:468px) {
+  .hide-on-desktop {
     display: none;
   }
-}
-
-
-
-
-/*Day Cat*/
-/* .day{
-  background-image: url("../assets/img/sunny-day.jpg");
-  color: white;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-}
-.col-12{
-  height: 20em;
-}
-.col-1{
-  height: 20em;
-}
-.col-10{
-  height: 20em;
-}
-img{
-  float: center;
-  max-width: 100%;
-} */
-
-/*Dawn Cat*/
-/* .dawn{
-  background-image: url("../assets/img/dawn.png");
-  color: white;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  float: inherit;
-}
-.col-12{
-  height: 20em;
-}
-.col-1{
-  height: 20em;
-}
-.col-10{
-  height: 20em;
-}
-img{
-  float: center;
-  max-width: 100%;
-} */
-/*NigthCat*/
-/* .nigth{
-  background-image: url("../assets/img/night.jpg");
-  color: white;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-}
-.col-12{
-  height: 20em;
-}
-.col-1{
-  height: 20em;
-}
-.col-10{
-  height: 20em;
-}
-img{
-  float: center;
-  max-width: 100%;
-} */
+  .hide-on-mobile {
+    display: none;
+  }
+  .hide-on-tablet {
+    display: block;
+  }
+/*dawn*/
+@media (min-width:768px) {
+  .hide-on-desktop {
+    display: none;
+  }
+  .hide-on-mobile {
+    display: block;
+  }
+  .hide-on-tablet {
+    display: none;
+  }
+/*nigth*/
+@media (min-width:800px) {
+  .hide-on-desktop {
+    display: block;
+  }
+  .hide-on-mobile {
+    display: none;
+  }
+  .hide-on-tablet {
+    display: none;
+  }
